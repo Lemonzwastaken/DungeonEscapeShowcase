@@ -1,58 +1,54 @@
 # Dungeon Escape
 
-A map and player movement/camera system showcase built in Unreal Engine 5.
+A small Unreal Engine 5 project where I experimented with dungeon exploration, player movement, camera effects, and lighting.
 
-Time Spent on project: ![hackatime](https://hackatime.hackclub.com/api/v1/badge/U092BLMKNQN/Lemonzwastaken/DungeonEscape)
+**Time Spent:** ![hackatime](https://hackatime.hackclub.com/api/v1/badge/U092BLMKNQN/Lemonzwastaken/DungeonEscape)
 
-## Overview
-
-This project is a **showcase**, not a full game — a small playable demo built to demonstrate a VHS-style player camera, lighting, and some exploration mechanics in Unreal Engine 5.
-
-- **Engine:** Unreal Engine 5
-- **Project file:** `DungeonEscape.uproject`
-- **Genre:** Dungeon-crawler showcase/tech demo
-- **Primary languages:** C++, with some Blueprints
+This isn't meant to be a full game. It's more of a playable demo where I could try out different systems and see how they work together, especially the VHS-style camera, lighting, and exploration.
 
 ## Requirements
 
 - [Unreal Engine 5](https://www.unrealengine.com/)
-- A compatible version of Visual Studio (Windows) or Xcode (macOS) if compiling from source
+- Visual Studio (Windows) or Xcode (macOS) if you need to compile the C++ code
 
-## Cloning the project
+## Running the Project
 
 1. Clone the repository:
-```bash
-   git clone https://github.com/Lemonzwastaken/Dungeon-Escape.git
-```
-2. Open `DungeonEscape.uproject` with Unreal Engine 5.
-3. If prompted, allow the engine to generate project files and compile the C++ modules.
-4. Press **Play** in the editor to run the project.
 
-**IMPORTANT NOTE**: Due to Unreal Engine licenses and git LFS limitations, I am required not to upload any assets. Before playing the demo, please replace all blueprints with your own assets. The project will break without replacing them.
+```bash
+git clone https://github.com/Lemonzwastaken/Dungeon-Escape.git
+```
+
+2. Open `DungeonEscape.uproject` in Unreal Engine 5.
+3. Let Unreal generate the project files and compile the C++ modules if it asks you to.
+4. Press **Play** in the editor.
+
+**NOTE:** I haven't included the original assets in this repository because of Unreal Engine licensing and Git LFS limitations. Some of the Blueprints depend on those assets, so you'll need to replace them with your own assets before everything works properly.
 
 ## Project Structure
 
 | Path | Description |
-|------|--------------|
+|------|-------------|
 | `Source/` | C++ source code |
-| `Content/Blueprints/` | Logic made using Blueprints |
-| `Config/` | Project and engine configuration files |
+| `Content/Blueprints/` | Blueprint logic |
+| `Config/` | Project and engine configuration |
 | `DungeonEscape.uproject` | Main Unreal Engine project file |
 
-## Notes on Implementation
+## About the Project
 
-This showcase combines C++ with Blueprints, focused on demonstrating basic player systems and exploration mechanics rather than a full gameplay loop. A demo clip has been posted on YouTube, linked below :)
+I built this project mainly to experiment with player movement, camera effects, lighting, and dungeon exploration in Unreal Engine 5.
 
+The project uses a mix of C++ and Blueprints. Most of the gameplay logic is relatively simple, but I wanted to use the project as a way to experiment with different systems and gradually build something that could be expanded later.
 
-You can also check it out on itch.io as well
+There's a demo of the project on YouTube:
 
-(https://lemonglemongg.itch.io/dungeon-escape-showcase)
+https://www.youtube.com/watch?v=2ED_53Zj5m8
 
-More updates and more maps will also be added to this system soon.
+You can also try the showcase on itch.io:
 
-Feel free to check it out.
+https://lemonglemongg.itch.io/dungeon-escape-showcase
 
-(https://www.youtube.com/watch?v=2ED_53Zj5m8)
+I'm planning to add more maps and continue expanding the system.
 
 ## License
 
@@ -60,9 +56,11 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## AI Usage
 
-I used AI for debugging and fixing errors, as well as cleaning up the code.
+I used AI mainly when I got stuck on debugging or needed help cleaning up parts of the code.
 
-I also used AI to help design and refine the procedural generation logic.
+I also used it while working on the procedural generation system, mainly to bounce around ideas and refine the approach.
+
+The project itself was built and tested by me.
 
 ---
 
