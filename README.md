@@ -1,6 +1,6 @@
 # Dungeon Escape
 
-A small Unreal Engine 5 project where I experimented with dungeon exploration, player movement, camera effects, and lighting.
+A small Unreal Engine 5 project where I experimented with player movement, camera effects, and lighting.
 
 **Time Spent:** ![hackatime](https://hackatime.hackclub.com/api/v1/badge/U092BLMKNQN/Lemonzwastaken/DungeonEscape)
 
